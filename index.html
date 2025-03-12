@@ -6,21 +6,47 @@
 	<title>Document</title>
 </head>
 <style>
-h1::first-letter{
-	color:blue;
-}
 * {
-     box-sizing: border-box;
-   }
-   
-   body{
+                box-sizing: border-box;
+                margin: 5px;
+                padding: 1em;
+        }
+
+        header, footer{
+                color:black;
+                background-color:  red;
+        }
+
+        aside{
+                color: #212121;
+                background-color: yellowgreen;
+        }
+        section{
+                background-color: #FF4081;
+                color: white;
+        }
+
+        main{
+                background-color: firebrick;
+                color: white;
+        }
+
+        body{
                 display: flex;
-   }
-</style>
+                background-color: #FFFFFF;
+        }
+        </style>
 <body>
 
-<h1>Welcome</h1>
+        <header>Header</header>
+        <aside>
+                Aside
+                <section>Section 1</section>
+                <section>Section 2</section>
+        </aside>
+        <main>Main</main>
+        <footer>Footer</footer>
 
-	
+    
 </body>
 </html>
